@@ -1,0 +1,2 @@
+As an international UNSW student, I want MyUNSW to be always online and
+working no matter what time it is so I can check my timetable for class times. 

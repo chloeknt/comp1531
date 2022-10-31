@@ -1,0 +1,6 @@
+A burger shall be provided to the user
+- The burger shall contain lots of pickles
+- The burger shall contain mayo
+- The burger shall not make the burger bun wet
+- The burger shall be warm
+- The burger shall be provided in a brown paper bag

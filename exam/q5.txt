@@ -1,0 +1,4 @@
+This is an example of essential complexity, because it is, as stated by the 
+developer, the complexity of the code is inherent to the problem. The complexity 
+cannot be fundamentally removed because it is required for the functionality 
+of the program, but it can be managed with good software design. 

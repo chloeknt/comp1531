@@ -1,0 +1,7 @@
+The part of the SDLC this statement would fit into would be the Design 
+stage, as the developers have an understanding of the problem they need 
+to solve and a set of requirements. A diagram or model would be used in 
+this stage to showcase how the state of the application would change based
+on user actions. It will aid the developers in understanding the different
+key components of the software that will be built. It will describe 
+software moddules and how they interact with each other.

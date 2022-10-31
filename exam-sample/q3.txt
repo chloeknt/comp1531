@@ -1,0 +1,8 @@
+Continuous Delivery- Allows accepted code changes to be
+deployed to customers quickly and sustainably. This involves the
+automation of the release process such that releases can be
+done in a "button push".
+
+Continuous Deployment- Changes attempt to flight toward production
+automatically, and the only thing stopping them is a failed test
+

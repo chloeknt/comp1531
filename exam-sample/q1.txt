@@ -1,0 +1,8 @@
+1. Unambigious- requirements need to be easily understood and clearly interpretable in one way. This avoids confusion, saves time and 
+prevents unintended outcomes from occuring.
+
+2. Testable- requirements need to be able to be tested in order to determine if the requirement is being implemented correctly. This 
+makes sure that the requirements can be verified as working or not working, which provides feedback for future use. 
+
+3. Necessary- requirements need to be compulsory, either the stakeholders need it, or it will affect the system in some way. This saves
+time and prevents further problems from occuring due to clashes in intention. 

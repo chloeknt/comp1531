@@ -1,0 +1,10 @@
+LBYL, which stands for 'Look Before You Leap', is a convention that helps
+avoid errors. Its principle is to check that something can be done before 
+it is actually carried out. For example, in a language like Python, 
+an exam of LBYL would be:
+if "key" in dict:
+    value = dict["key"]
+
+where whether the key exists in the dictionary is checked before anything 
+is carried out with the dictionary value of that particular key. In this
+example, this prevents the KeyError exception from occurring. 

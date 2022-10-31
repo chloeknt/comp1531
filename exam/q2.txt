@@ -1,0 +1,7 @@
+The part of the SDLC this statement would fit into would be the Planning
+and Requirement Analysis stage. This is because in this stage, developers 
+obtain information regarding the usage of a product that is already 
+in production. Included in this is the tracking of data such as how often
+servers go down. The information is transformed into requirements, which
+will provide information that aids developers with the second stage, Design,
+which deals with such requirements.  

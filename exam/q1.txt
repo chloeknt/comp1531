@@ -1,0 +1,11 @@
+Continuous Integration is when developers merge changes to code back 
+to the main branch often. This code is validated using tests, this 
+makes sure the integration process can be monitored and fixed before
+the release day. Continuous Delivery, on the other hand, is an extension
+of Continuous Integration as it is the practice of automatically deploying
+code changes, it is an automated release of code. Instead of being deployed
+all at once like in Continuous Integration, it is done when required in
+smaller batches. An example of Continuous Integration would be committing 
+the code for an application being built in a single repository for a team
+project. An example of Continuous Delivery would be updating software for an application
+automatically on a mobile phone.
