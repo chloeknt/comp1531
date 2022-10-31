@@ -1,0 +1,3 @@
+from random import randint
+
+number = int(input("What is {num_one} x {num_two}"))

@@ -1,0 +1,25 @@
+'''
+Calculate the estimated tax on input income 
+'''
+
+income = eval(input("Enter your income: "))
+
+number = 0
+
+if income <= 18200:
+    tax = '{:,.2f}'.format(number)
+    print(f"The estimated tax on your income is ${tax}")
+elif income <= 37000:
+    number = (income - 18200) * 0.19
+    tax = '{:,.2f}'.format(number)
+    print(f"The estimated tax on your income is ${tax}")
+elif income <= 87000:
+    number = ((income - 37000) * 0.325) + 3572
+    tax = '{:,.2f}'.format(number)
+    print(f"The estimated tax on your income is ${tax}")
+elif income <= 180000:
+    tax = '{:,.2f}'.format(number)
+    print(f"The estimated tax on your income is ${tax}")
+else:
+    tax = '{:,.2f}'.format(number)
+    print(f"The estimated tax on your income is ${tax}")
