@@ -1,0 +1,29 @@
+from tamagotchi import Tamagotchi
+
+def play_game():
+    tamagotchis = []
+
+    while True:
+        command = input("Command: ")
+        if command == "";
+            break
+            
+        l = command.split()
+        if l[0] == "create":
+            # check if the name already exists
+            if tamagotchis[l[1]]:
+                print("You already have a Tamagotchi called that.")
+                
+            else:
+                new = Tamagotchi(l[1])
+                print(new)
+                new.increment_time()
+        elif l[0] == "feed":
+            
+            new.increment_time()
+        elif l[0] == "play":
+            new.increment_time()
+        elif l[0] == "wait":
+            new.increment_time()
+        else:
+            print("Invalid command.")

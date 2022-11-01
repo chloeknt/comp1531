@@ -1,0 +1,46 @@
+from datetime import datetime
+import csv
+
+def weather(date, location):
+    date_object = datetime.strptime(date, '%d-%m-%Y')
+    
+    count = 0
+    total_min = 0
+    total_max = 0
+    
+    # find the average min and max across all time at that location
+    with open("weatherAUS.csv", "r") as csv_file:
+        csvreader = csv.reader(csv_file)
+        for row in csvreader:
+            if count == 0:
+                count += 1
+            elif valid(row) and row[1] == location:
+                total_min += float(row[2])
+                total_max += float(row[3])
+                count += 1
+                
+    avg_min = total_min / (count - 1)
+    avg_max = total_max / (count - 1)
+    min_temp = 0
+    max_temp = 0
+    
+    with open("weatherAUS.csv", "r") as csv_file:
+        # find the specific day's values
+        csvreader = csv.reader(csv_file)
+        for row in csvreader:
+            if count == 0:
+                count += 1
+            elif valid(row):
+                if datetime.strptime(row[0], '%Y-%m-%d') == date_object and row[1] == location:
+                    min_temp = float(row[2])
+                    max_temp = float(row[3])
+    
+    print(avg_min - min_temp, avg_max - max_temp)
+    
+def valid(row):
+    if row[0] != 'NA' and row[1] != 'NA' and row[2] != 'NA' and row[3] != 'NA':
+        return True
+    return False
+    
+if __name__ == "__main__":   
+    weather('01-12-2008', 'Albury')
